@@ -3,7 +3,6 @@
 <html>
 <head>
 <title>IIITDefense</title>
-
 <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 <link rel="stylesheet" type="text/css" href="style2.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -41,10 +40,8 @@
 <div class="chat-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
     <h1>Chat</h1>
-
     <label for="msg"><b>Message</b></label>
     <textarea placeholder="Type message.." name="msg" required></textarea>
-
     <button type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
@@ -53,7 +50,6 @@
   function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
-
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
